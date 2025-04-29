@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Dr. Ayesha Khan",
+      "licenseNumber": "LIC1001",
+      "layer": "Senior",
+      "experience": 15,
+      "availableDay": ["Monday", "Wednesday", "Friday"],
+      "consultationFee": 800,
+      "expertise": ["Cardiology", "Internal Medicine"],
+      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "name": "Dr. Rahul Mehta",
+      "licenseNumber": "LIC1002",
+      "layer": "Junior",
+      "experience": 2,
+      "availableDay": ["Tuesday", "Thursday"],
+      "consultationFee": 900,
+      "expertise": ["Dermatology"],
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "name": "Dr. Sofia Ahmed",
+      "licenseNumber": "LIC1003",
+      "layer": "Mid-Level",
+      "experience": 7,
+      "availableDay": ["Monday", "Thursday", "Saturday"],
+      "consultationFee": 350,
+      "expertise": ["Pediatrics", "General Medicine"],
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "name": "Dr. Imran Siddiqui",
+      "licenseNumber": "LIC1004",
+      "layer": "Senior",
+      "experience": 18,
+      "availableDay": ["Monday", "Tuesday"],
+      "consultationFee": 200,
+      "expertise": ["Neurology"],
+      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "name": "Dr. Laila Hussain",
+      "licenseNumber": "LIC1005",
+      "layer": "Mid-Level",
+      "experience": 6,
+      "availableDay": ["Wednesday", "Saturday"],
+      "consultationFee": 150,
+      "expertise": ["Gynecology"],
+      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "name": "Dr. Aarav Desai",
+      "licenseNumber": "LIC1006",
+      "layer": "Junior",
+      "experience": 1,
+      "availableDay": ["Friday", "Sunday"],
+      "consultationFee": 400,
+      "expertise": ["ENT"],
+      "image": "https://randomuser.me/api/portraits/men/50.jpg"
+    },
+    {
+      "name": "Dr. Meher Fatima",
+      "licenseNumber": "LIC1007",
+      "layer": "Senior",
+      "experience": 20,
+      "availableDay": ["Tuesday", "Thursday"],
+      "consultationFee": 220,
+      "expertise": ["Oncology"],
+      "image": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "name": "Dr. Kabir Sharma",
+      "licenseNumber": "LIC1008",
+      "layer": "Mid-Level",
+      "experience": 5,
+      "availableDay": ["Wednesday", "Friday"],
+      "consultationFee": 199,
+      "expertise": ["Orthopedics"],
+      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "name": "Dr. Nida Qureshi",
+      "licenseNumber": "LIC1009",
+      "layer": "Junior",
+      "experience": 3,
+      "availableDay": ["Saturday", "Sunday"],
+      "consultationFee": 350,
+      "expertise": ["Psychiatry"],
+      "image": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "name": "Dr. Sameer Ali",
+      "licenseNumber": "LIC1010",
+      "layer": "Senior",
+      "experience": 22,
+      "availableDay": ["Monday", "Wednesday", "Friday"],
+      "consultationFee": 250,
+      "expertise": ["Surgery", "General Medicine"],
+      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+    }
+  ]
+  

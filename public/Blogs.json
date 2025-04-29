@@ -1,0 +1,23 @@
+[
+      {
+        "question": "What is useState and how does it work in React?",
+        "answer": "useState is a React Hook that allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update that state. When the state is updated using this function, React re-renders the component to reflect the new state."
+      },
+      {
+        "question": "What is the purpose of useEffect in React?",
+        "answer": "useEffect is a React Hook used to handle side effects in functional components, such as fetching data, updating the DOM, or setting up subscriptions. It runs after the component renders and can be configured to run conditionally based on dependency values."
+      },
+      {
+        "question": "What is a custom hook in React and when should you use one?",
+        "answer": "A custom hook is a JavaScript function that starts with 'use' and allows you to reuse stateful logic across multiple components. You should use a custom hook when you need to share logic that involves hooks like useState, useEffect, etc., across different components to keep your code DRY and maintainable."
+      },
+      {
+        "question": "Difference between controlled and uncontrolled components. Which one is better?",
+        "answer": "Controlled components are form elements whose values are controlled by React state, while uncontrolled components rely on the DOM to manage their own state. Controlled components are generally better because they offer more control and predictability, especially in large or complex forms."
+      },
+      {
+        "question": "Tell us something about useFormStatus() in React.",
+        "answer": "useFormStatus() is a hook available in React (primarily with React Server Components and form actions) that provides information about the status of a form submission, such as whether it is pending or has succeeded. It’s useful for showing loading states or disabling inputs during submission."
+      }
+    ]
+  
