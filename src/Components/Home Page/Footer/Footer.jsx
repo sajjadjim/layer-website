@@ -1,5 +1,9 @@
 import React from 'react';
 import footerImage from '../../../assets/C002-assets/logo-footer.png'
+import { FaFacebook } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { IoLogoYoutube } from "react-icons/io";
 const Footer = () => {
     return (
         <div>
@@ -13,10 +17,15 @@ const Footer = () => {
     <a className="link link-hover">Blogs</a>
     <a className="link link-hover">Contacts</a>
   </nav>
-
-  <aside>
+<div className='flex gap-5'>
+  <a href="https://www.facebook.com/sajjad.hossain.jim" target=''><FaFacebook className='w-8 h-8 text-blue-800' /></a>
+  <a href="https://www.github.com/sajjadjim" target=''><FaGithub  className='w-8 h-8 ' /></a>
+  <a href="https://www.linkedin.com/in/sajjadjim/" target=''><BsLinkedin   className='w-8 h-8  text-blue-800' /></a>
+  <a href="https://www.youtube.com" target=''><IoLogoYoutube    className='w-8 h-8  text-red-800' /></a>
+</div>
+  {/* <aside>
     <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-  </aside>
+  </aside> */}
 </footer>
         </div>
     );
