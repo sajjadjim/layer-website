@@ -32,12 +32,12 @@ export const router = createBrowserRouter([
         ,
         {
             path:'blogs',
-            loader:()=> fetch('Blogs.json').then(res=> res.json())
+            loader:()=> fetch('/Blogs.json').then(res=> res.json())
             ,Component:Blogs,
         },
         {
           path:'/booking/:id',
-          loader:()=> fetch('LayerData.json').then(res=> res.json()),     
+          loader:()=> fetch('/LayerData.json').then(res=> res.json()),     
           Component:LayerDetails,
           errorElement:<LayerDynamicError></LayerDynamicError>
         },
@@ -48,7 +48,7 @@ export const router = createBrowserRouter([
         {
           path:'/bookingLayer'
           ,
-          loader:()=> fetch('LayerData.json').then(res=> res.json())     
+          loader:()=> fetch('/LayerData.json').then(res=> res.json())     
           ,Component:BookingLayer
         }
       ]

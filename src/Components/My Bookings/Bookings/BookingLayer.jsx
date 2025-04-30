@@ -6,17 +6,8 @@ import {
 } from "../../../LocalStoreData/addLocalStoreData";
 import { ToastContainer, toast } from "react-toastify";
 import { Link } from "react-router";
-import {
-  Bar,
-  BarChart,
-  Line,
-  LineChart,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-} from "recharts";
+
 import Rechart from "./Rechart";
-import CustomConeBarChart from "./Rechart";
 const BookingLayer = () => {
   const [layerListAppointment, setLayerListAppointment] = useState([]);
   const data = useLoaderData();
