@@ -28,7 +28,7 @@ const Data = ({item}) => {
         }
     </div>
     
-      <button className="w-full cursor-pointer mt-2 py-2 text-blue-500 border-blue-300 border-1 rounded-full">View Details</button>
+      <button className="w-full cursor-pointer mt-2 py-2 text-blue-500 border-blue-300 border-1 rounded-full hover:bg-blue-700 hover:text-white">View Details</button>
 
   </div>
 </div>

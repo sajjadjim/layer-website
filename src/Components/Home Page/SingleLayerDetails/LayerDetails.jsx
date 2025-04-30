@@ -1,7 +1,10 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import { CiCircleAlert } from "react-icons/ci";
-import { addStoredCart, getItems } from "../../../LocalStoreData/addLocalStoreData";
+import {
+  addStoredCart,
+  getItems,
+} from "../../../LocalStoreData/addLocalStoreData";
 import { ToastContainer, toast } from "react-toastify";
 const LayerDetails = () => {
   const { id } = useParams();
@@ -21,14 +24,13 @@ const LayerDetails = () => {
 
   const handleLayerAppointment = (id) => {
     const storedLocalAppointment = getItems();
-  const isLocalAppointmentStore = storedLocalAppointment.includes(id);
-  if(isLocalAppointmentStore){
-    toast("Already fixed appointment ⚠️");
-  }
-   else{
-    addStoredCart(id);
-    toast("Successfully add appointment ✅");
-   }
+    const isLocalAppointmentStore = storedLocalAppointment.includes(id);
+    if (isLocalAppointmentStore) {
+      toast("Already fixed appointment ⚠️");
+    } else {
+      addStoredCart(id);
+      toast("Successfully add appointment ✅");
+    }
   };
 
   return (
